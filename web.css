@@ -1,0 +1,131 @@
+	<style >
+		
+		body
+{
+	margin:0;
+	font-family: 'Bangers', cursive;
+	font-size: 2em;
+	color:white;
+}
+
+.zone
+{
+	color:(#FFF);
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.a
+{
+
+	background-image: linear-gradient(#00C200,#ACE700);
+}
+
+.stick
+{
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+.b
+{
+	height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	padding:10px;
+	/*background-image: linear-gradient(#6D0193,#AD006D);*/
+}
+
+.cover
+{
+	height:50%;
+	/*width:80%;*/
+}
+
+.c
+{
+	background-image: linear-gradient(#009857,#0279A1);
+	display:grid;
+}
+
+.d
+{
+	background-image: linear-gradient(#071013,#434A55);
+	text-align: center;
+}
+
+.list
+{
+	padding:10px;
+	margin: 0;
+	display:flex;
+	list-style: none;
+	cursor: pointer;
+}
+
+.box:hover
+{
+transform: rotate(-5deg);
+}
+
+li
+{
+	padding :10px;
+	/*margin:5px;*/
+}
+
+.p
+{
+	margin-left: auto;
+}
+
+.container
+{
+	height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid
+{
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box
+{
+	background-color: #444;
+    padding: 20px;
+    margin: 20px;
+    border:2px solid white;
+}
+
+img
+{
+
+}
+
+.box > img {
+    width: 100%;
+
+}
+
+.zone:hover
+{
+	transition: height width 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.8);
+
+}
+.sub
+{
+	display:flex;
+    align-items: center;justify-content: center;
+	margin:5px;
+
+}
+	</style>
